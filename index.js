@@ -3,11 +3,11 @@ const app  =require('./app');
 const UserModel = require('./model/user.model');
 const XChanged= require('./model/x-changed.currency.model');
 
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 app.get('/',(req,res)=>{
     res.send("deadpool and wolverine is best movie ever")
 })
-app.listen(port, ()=> {
-    console.log(`Server is running on port http://localhost:${port}`);
-});
+app.listen(port, () => {
+    console.log(`Server is running on port ${port}`);
+  });
