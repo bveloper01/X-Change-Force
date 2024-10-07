@@ -1,4 +1,4 @@
-<h1 align="center">X-Change💵</h1> <h2 align="center">A simple yet powerful currency exchange app</h2> 
+<h1 align="center">Xchange💵</h1> <h2 align="center">A simple yet powerful currency exchange app</h2> 
 <h3 align="center">This Flutter app utilizes GetX for state management and JWT for secure authentication, with MongoDB managing user and currency data. It features an onboarding process, robust registration, and login systems, and navigates users to a dashboard if their token is valid. The app leverages `SharedPreferences` for token storage and `jwt_decoder` to validate tokens. The UI, built with Material3 components, supports real-time currency conversion, ensuring a seamless and secure user experience.</h3>
 <br>
 
